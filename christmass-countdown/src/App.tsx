@@ -1,5 +1,6 @@
 
 import React, { useEffect, useState } from 'react';
+import "./App.css"
 
 const Countdown: React.FC = () => {
   const [timeLeft, setTimeLeft ] = useState <{
@@ -39,7 +40,8 @@ const Countdown: React.FC = () => {
 
   return (
     <div style={{textAlign: 'center' , margin : "50px "}}>
-      <h1> Merry Christmass countdown</h1>
+      <h1> Merry Christmass, 2024</h1>
+      {/* <h1> Merry Christmass countdown</h1> */}
       <div style={{ fontSize : "2rem",fontfamily: 'Arial , sans-serif'}}>
         {timeLeft.days} days {timeLeft.hours} hours {timeLeft.minutes}Minutes {timeLeft.seconds} seconds
       </div>

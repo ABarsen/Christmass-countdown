@@ -1,13 +1,14 @@
 A christmass count down made using TypeScript
 
 
+run vite on vs studio
 
 
-Fork the repository or PR
+
 
 install dependencies 
 
-make changes
+
 
  npm build .
 
